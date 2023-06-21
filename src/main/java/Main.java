@@ -7,9 +7,9 @@ public class Main {
         post.phone = "+7 (999)-999-99-99";
         post.surname = "Иванов";
         post.subscription = Boolean.parseBoolean("true");
-        FromDate FromDate = new FromDate();
-        FromDate.day = 13;
-        FromDate.month = 6;
-        FromDate.year = 1999;
+        post.birthday = new FromDate();
+        post.birthday.day = 13;
+        post.birthday.month = 6;
+        post.birthday.year = 1999;
     }
 }
